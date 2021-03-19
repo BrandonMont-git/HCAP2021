@@ -9,4 +9,4 @@ print("lineas agregadas en la rama2")
 IGS=cv2.cvtColor(IRGB,cv2.COLOR_BGR2GRAY)
 print(IGS)
 print(IGS.shape)
-
+cv2.imwrite('004GS.jpg',IGS)
